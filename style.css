@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+  
+#navbarNav{
+    height: 70px;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   display: flex;
+   justify-content: end;
+}
+#nov{
+    display: flex;
+    justify-content: center;
+}
+#mainbody{
+    height: 80vh;
+    width: 100%;
+    background-color: #efc3f5;
+       
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+#nav{
+    background-color:rgba(161, 118, 118, 0.527);
+}
+.footer{
+    background-color:#56a3a6;
+    height: 15vh;
+    width: 100%;
+
+
+}
+#logo{
+    image-rendering: crisp-edges;
+    width: 100px;
+    height: auto;
+}
