@@ -1,0 +1,14 @@
+{
+    "data":[{
+        "word":"hello",
+        "isvisited": 0
+    },
+    {
+        "word":"good morning",
+        "isvisited": 0
+    },
+    {
+        "word":"good night",
+        "isvisited": 0
+    }]
+  }

@@ -17,10 +17,9 @@
 }
 #mainbody{
     height: 80vh;
-    width: 100%;
-    background-color: #efc3f5;
-       
+    width: 100%       
 }
+
 .navbar-brand{
     font-size: xx-large;
     font-weight: bold;
@@ -30,14 +29,19 @@
     background-color:rgba(161, 118, 118, 0.527);
 }
 .footer{
-    background-color:#56a3a6;
+    background: linear-gradient(to bottom, #FEECE2, #F7DED0);
     height: 15vh;
     width: 100%;
 
 
 }
 #logo{
-    image-rendering: crisp-edges;
+    
     width: 100px;
     height: auto;
+}
+.card-img-top{
+    height: 400px;
+    width: 90px;
+
 }

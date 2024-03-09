@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: "Zilla Slab", serif;
+    
+    font-style: normal;
+}
+
+.main {
+    align-content: center;
+    height: 450px;
+    width: 350px;
+    border: 5px solid black;
+    border-color: black;
+    background: hsla(183, 62%, 45%, 1);
+    background: linear-gradient(90deg, hsla(183, 62%, 45%, 1) 0%, hsla(41, 96%, 58%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(183, 62%, 45%, 1) 0%, hsla(41, 96%, 58%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(183, 62%, 45%, 1) 0%, hsla(41, 96%, 58%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2CB2BA", endColorstr="#FBB92D", GradientType=1 );
+    outline: none; /* Remove the outline */
+}
+
+p {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: large;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: 500px;
+    text-decoration-line: underline;
+}
+
+.bt {
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: rgb(240, 232, 10);
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+}
+.extlogo{
+    width: 85px;
+}
+.meow{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.foot{
+    text-align: center;
+    font-size: large;
+}
+.foot .heart{
+    color:red;
+}

@@ -1,10 +1,28 @@
 {
     "name": "Tab-Lingo",
-    "version": "0.0.1",
+    "version": "1.0",
     "author": "Team TechDown",
-    "manifest_version" : 2,
+    "manifest_version": 2,
+    "permissions": ["tabs"],
+    "description" : "A versatile extension for new language learners. ",
     "browser_action": {
-        "default_title": "Switch The Lingo",
-        "default_icon": "photoes/logo.jpg"
+      "default_icon" : "website/photoes/withoutbg.png",
+      "default_popup": "index.html",
+      "default_title": "Switch The Lingo"
     },
-}
+    
+    "background":{
+      "scripts":["popup.js"],
+      "persistent":false
+    },
+
+    "permissions": [
+      "desktopCapture",
+      "storage",
+      "tabCapture",
+      "activeTab",
+      "<all_urls>",
+      "identity",
+      "https://www.googleapis.com/*"
+    ]
+  }
